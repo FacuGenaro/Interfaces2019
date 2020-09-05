@@ -1,0 +1,204 @@
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.97) 0.66%, rgba(0, 0, 0, 0.9021) 33.85%, rgba(0, 0, 0, 0.8924) 67.19%, rgba(0, 0, 0, 0.97) 100%) no-repeat;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* html {
+    height: 100%
+}
+
+body {
+    min-height: 100%
+} */
+
+/* Inicio Nav */
+
+.logo {
+    position: relative;
+    margin-right: auto;
+}
+
+#contenedorPerfil {
+    order: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    #miCuenta p {
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: white!important;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    #miCuenta p {
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: white !important;
+        float: left;
+        margin-bottom: 0px;
+    }
+}
+
+nav {
+    background: inherit;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: white !important;
+    margin-left: 20px;
+}
+
+#miCuenta {
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+}
+
+#miCuenta a {
+    font-size: 18px !important;
+    padding: 0;
+}
+
+#fotoPerfil {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    width: 55px;
+    height: 55px;
+}
+
+/* Fin Nav */
+
+/* Inicio Footer */
+
+@media only screen and (max-width: 900px) {
+    #footerContainer p {
+        display: inline-block;
+        font-weight: normal;
+        font-size: auto;
+        color: white;
+    }
+}
+
+footer {
+    width: 100%;
+    background: inherit;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+#footerContainer p {
+    display: inline-block;
+    font-weight: normal;
+    font-size: auto;
+    color: white;
+}
+
+/* Fin Footer */
+
+/* Inicio mensajes Home */
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 45px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        padding-left: 20px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        padding-left: 10px;
+        font-size: 25px;
+    }
+}
+
+/* Fin mensajes home */
+
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.container-fluid{
+    margin-top: 3%;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown-toggle{
+    background-color: white;
+    width: auto;
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: green;
+    border: none;
+    box-shadow: black 2px 2px;
+    font-family: Roboto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.btn-primary:hover {
+    background-color: green;
+}
+
+.a{
+    margin-bottom: 3%;
+}

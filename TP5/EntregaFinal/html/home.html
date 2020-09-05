@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>🎬CinemaHome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+
+</head>
+
+<body>
+    <!-- Inicio Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light flex-container">
+        <a class="navbar-brand logo" href="home.html">
+            <img src="https://fontmeme.com/permalink/191023/ba63d642cd2bae302781c6e12e8ff555.png"
+                class="d-inline-block align-top img-fluid" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ml-auto order-sm-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="miCuenta">
+                        <img class="rounded-circle img-fluid" id="fotoPerfil" src="https://puu.sh/Ew9wD/c26b98e0c1.png"
+                            alt="">
+                        <p>Hola Maria!</p>
+                        <a class="nav-link" href="micuenta.html">Mi Cuenta</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto order-sm-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="milista.html">Mi Lista</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Peliculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="busqueda.html">🔍</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Nav -->
+    <!-- Inicio Contenido -->
+
+    <h1>Estrenos del Viernes</h1>
+
+    <!-- Inicio Carrusel -->
+
+    <div class="OwlViernes">
+        <div class="owl-carousel" id="estrenosViernes">
+            <div class="item">
+                <div class="imgContainer">
+                    <video class="video" src="../videos/Trailer-Joker.mp4" loop type="video/mp4"></video>
+                    <img src="../images/Viernes1.png" class="img-fluid" alt="...">
+                    <div class="botonera">
+                        <button id="ver" class="play"><i class="fal fa-play-circle"></i></i></button>
+                        <button id="info" class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                        <button id="juego" class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="item">
+                <div class="imgContainer">
+                    <video class="video" src="../videos/Dunkirk - Trailer 1 [HD].mp4" loop type="video/mp4"></video>
+                    <div class="botonera">
+                        <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                        <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                        <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                    </div>
+                    <img src="../images/Viernes2.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+            <!--  -->
+            <div class="item">
+                <div class="imgContainer">
+                    <video class="video" src="../videos/Avengers.mp4" loop type="video/mp4"></video>
+                    <div class="botonera">
+                        <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                        <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                        <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                    </div>
+                    <img src="../images/Viernes3.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+
+            <!--  -->
+        </div>
+    </div>
+    <!-- Fin Carrusel -->
+    <!-- Inicio Continuar viendo -->
+    <h1>Continuar viendo</h1>
+    <div class="OwlContinuar">
+        <div class="owl-carousel" id="continuar">
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar1.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button id="error" class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar2.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar3.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar4.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar5.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar5.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Fin continuar viendo -->
+    <!-- Inicio Tendencias -->
+    <h1>Series Tendencia</h1>
+    <div class="OwlTendencia">
+        <div class="owl-carousel" id="tendenciasS">
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar1.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar2.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar3.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar4.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar5.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar5.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Fin tendencias -->
+    <!-- Inicio Tendencias Peliculas -->
+    <h1>Peliculas Tendencia</h1>
+    <div class="OwlTendencia">
+        <div class="owl-carousel" id="tendenciasP">
+            <div class="item">
+                <div class="botoneraPelis">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Pelicula1.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraPelis">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Pelicula2.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraPelis">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Pelicula3.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraPelis">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Pelicula4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Fin Tendencias Peliculas -->
+    <!-- Inicio Recomendaciones -->
+    <h1>Sugerencias para vos</h1>
+    <div class="OwlTendencia">
+        <div class="owl-carousel" id="recomendaciones">
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar1.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar2.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar3.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar4.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-check-circle"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar5.png" alt="">
+            </div>
+            <div class="item">
+                <div class="botoneraContinuar">
+                    <button class="play"><i class="fal fa-play-circle"></i></i></button>
+                    <button class="info"><i class="fal fa-info-circle fa-fw"></i></button>
+                    <button class="miLista"><i class="fal fa-plus-circle fa-fw"></i></button>
+                </div>
+                <img class="imgOwl img-fluid" src="../images/Continuar5.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Fin Recomendaciones -->
+    <!-- Fin Contenido -->
+    <!-- Inicio footer -->
+    <footer>
+        <div id="footerContainer">
+            <p>¿Preguntas? Llamá al 0800-555-CINE</p>
+        </div>
+    </footer>
+    <!-- Fin footer -->
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/owl.carousel.js"></script>
+<script src="../js/OwlJquery.js"></script>
+<script src="../js/home.js"></script>
+<script src="../js/fontAwesomeCheat.js"></script>
+
+</html>

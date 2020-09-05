@@ -1,0 +1,16 @@
+body{
+  background: url(../images/backNav.jpg) no-repeat fixed center;
+  color:white;
+}
+
+nav{
+   border-bottom: white 1px solid;
+}
+
+#canvas{
+  border: white 1px solid;
+  padding: 0; 
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}

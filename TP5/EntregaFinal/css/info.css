@@ -1,0 +1,497 @@
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.97) 0.66%, rgba(0, 0, 0, 0.9021) 33.85%, rgba(0, 0, 0, 0.8924) 67.19%, rgba(0, 0, 0, 0.97) 100%) no-repeat;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Inicio Nav */
+
+.logo {
+    position: relative;
+    margin-right: auto;
+}
+
+#contenedorPerfil {
+    order: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    #miCuenta p {
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: white!important;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    #miCuenta p {
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: white !important;
+        float: left;
+        margin-bottom: 0px;
+    }
+}
+
+nav {
+    background: inherit;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: white !important;
+    margin-left: 20px;
+}
+
+#miCuenta {
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+}
+
+#miCuenta a {
+    font-size: 18px !important;
+    padding: 0;
+}
+
+#fotoPerfil {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    width: 55px;
+    height: 55px;
+}
+
+/* Fin Nav */
+
+/* Inicio Footer */
+
+@media only screen and (max-width: 900px) {
+    #footerContainer p {
+        display: inline-block;
+        font-weight: normal;
+        font-size: auto;
+        color: white;
+    }
+}
+
+footer {
+    width: 100%;
+    background: inherit;
+}
+
+#footerContainer p {
+    display: inline-block;
+    font-weight: normal;
+    font-size: auto;
+    color: white;
+}
+
+/* Fin Footer */
+
+/* Inicio mensajes Home */
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 45px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        padding-left: 20px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        padding-left: 10px;
+        font-size: 25px;
+    }
+}
+
+/* Fin mensajes Home */
+
+/* Inicio Body info peli */
+
+.infoPeli {
+    padding-left: 30px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.infoPeli h2 {
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: 1px white solid;
+}
+
+.textContainer {
+    position: absolute;
+    max-width: 70%;
+    height: 100%;
+    right: 30px;
+}
+
+.textContainer p {
+    font-family: RobotoItalic;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+}
+
+iframe {
+    width: 60%;
+    height: 60%;
+    display: block;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .infoPeli h2 {
+        font-size: 35px;
+    }
+    .infoPeli {
+        padding-left: 20px;
+        margin-bottom: 3%;
+    }
+    .textContainer p {
+        font-size: 15px;
+    }
+    .textContainer {
+        max-width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .infoPeli h2 {
+        font-size: 25px;
+    }
+    .infoPeli {
+        padding-left: 10px;
+        margin-bottom: 3%;
+    }
+    .textContainer p {
+        font-size: 10px;
+    }
+    .textContainer {
+        max-width: 60%;
+    }
+}
+
+.infoPeli img {
+    max-width: 25%;
+    height: auto;
+}
+
+.heading {
+    font-size: 25px;
+    font-family: Roboto;
+    color: white;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Sinopsis */
+
+.estrellas {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .fa {
+        font-size: 18px;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .estrellas {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fa {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 12px;
+    }
+    .estrellas {
+        padding-left: 10px;
+    }
+}
+
+/* Comentarios */
+
+.comentariosContainer {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 3%;
+    perspective: 1000px;
+}
+
+.comentariosContainer h4 {
+    padding: 0;
+    font-size: 25px;
+    font-family: Roboto;
+    color: white;
+}
+
+.comentariosContainer p {
+    color: white;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 900px) {
+    .comentariosContainer h4 {
+        font-size: 20px;
+    }
+    .comentariosContainer p {
+        font-size: 18px;
+    }
+    .comentario {
+        padding-top: 3%;
+    }
+    .comentariosContainer {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .comentariosContainer h4 {
+        font-size: 12px;
+    }
+    .comentariosContainer p {
+        font-size: 10px;
+    }
+    .comentario {
+        padding-top: 3%;
+    }
+    .comentariosContainer {
+        padding-left: 10px;
+    }
+}
+
+.comentario {
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.comentarioFlip {
+    display: none;
+}
+
+.dejaComentario {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.formComentario {
+    width: 75%;
+    margin: auto;
+}
+
+.OwlTendencia {
+    width: 100%;
+}
+
+.sugerenciasContainer {
+    padding-left: 30px;
+}
+
+.sugerenciasContainer h1 {
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .OwlTendencia {
+        width: 100%;
+    }
+    .sugerenciasContainer {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .OwlTendencia {
+        width: 100%;
+    }
+    .sugerenciasContainer {
+        padding-left: 10px;
+    }
+}
+
+.imgOwl {
+    width: auto;
+    height: auto;
+}
+
+.play, .info, .miLista {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+.fa-play-circle, .fa-info-circle, .fa-plus-circle, .fa-check-circle {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.play:focus, .info:focus, .miLista:focus {
+    outline: none;
+}
+
+.botoneraContinuar {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.botonera {
+    position: absolute;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    top: 0px;
+    right: 3%;
+}
+
+@media only screen and (max-width: 900px) {
+    .botoneraContinuar {
+        font-size: 40px;
+    }
+    .botonera {
+        font-size: 35px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .botoneraContinuar {
+        font-size: 25px;
+    }
+    .botonera {
+        font-size: 22px;
+    }
+}
+
+/* Animacion estrellas */
+
+.formComentario {
+    text-align: center;
+}
+
+.valoracion {
+    margin-bottom: 2%;
+}
+
+.valoracion label {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    font-size: 30px;
+    transition: 1s all;
+}
+
+.valoracion label:hover {
+    color: orange;
+    transform: rotate(360deg);
+}
+
+.valoracion label:hover>label:hover {
+    color: orange;
+    transform: rotate(360deg);
+}
+
+.comentario:hover {
+    transform: rotateX(180deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.back, .front {
+    backface-visibility: hidden;
+}
+
+.front {
+    z-index: 2;
+}
+
+.back {
+    transform: rotateX(180deg);
+    display: none;
+}
